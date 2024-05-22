@@ -1,0 +1,34 @@
+.container-end {
+    background: black;
+    display: flex;
+    color: white;
+    padding: 20px; 
+    justify-content: space-around 
+}
+
+.container-end .footer-section {
+    width: 25%;
+}
+
+.container-end h4 {
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.container-end ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.container-end li {
+    margin: 10px 0;
+}
+
+.container-end a {
+    color: white;
+    text-decoration: none; 
+}
+
+.container-end a:hover {
+    text-decoration: underline;
+}

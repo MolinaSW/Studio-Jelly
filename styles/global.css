@@ -1,6 +1,10 @@
 @import url('./backgroud.css');
 @import url('./header.css');
 @import url('./main.css');
+@import url('./carrossel.css');
+@import url('./plans.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('./footer.css');
 
 * {
     padding: 0;
@@ -37,4 +41,20 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
+  }
+
+  .carrossel-title {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .carrossel-title h2 {
+    font-size: 5em;
+    margin: 0;
+  }
+  
+  .carrossel-title p {
+    font-size: 1.2em;
+    margin: 0;
   }
